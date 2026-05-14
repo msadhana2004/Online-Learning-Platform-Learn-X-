@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input {
+    @apply w-full p-3 border mb-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400;
+}
+
+.btn-primary {
+    @apply w-full bg-[#1E3A8A] text-white py-3 rounded-lg hover:bg-blue-700 transition duration-300 mt-2;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
